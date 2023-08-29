@@ -1,20 +1,58 @@
-/* Your CSS Code here. */
-.nav-1{
-	width:100%;
-	color:white;
-	background-color:skyblue;
-	padding:30px;
-	border-color: 5px solid blue:
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
 }
-.nav-2{
 
-	color:white;
-	font-size:30px;
-	margin:20px;
-	
-	
+/* Apply basic styling to the page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
-#img-1{
-	width:700px;
-	height:400px;
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the sections */
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the profile image */
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 70px;
+    height: 70px;
 }
